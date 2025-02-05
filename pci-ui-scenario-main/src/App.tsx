@@ -1,9 +1,16 @@
-import NeoGrid from './Grid';
+import React from "react";
+import NeoGrid from "./components/Grid";
+import Header from "./components/Header";
 
-const App = () => {
+const App: React.FC = () => {
   return (
+    <div>
       <NeoGrid />
+    </div>
   );
-}
+};
 
 export default App;
+
+
+
